@@ -1,0 +1,19 @@
+.afficher{
+
+    padding: 170px;
+    width: 50%;
+    text-align: right;
+    font-size: 20px;
+    margin: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    justify-content: center;
+}
+
+button{
+    padding: 10px;
+    width: 100PX;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+}

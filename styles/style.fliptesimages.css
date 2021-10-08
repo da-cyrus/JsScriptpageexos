@@ -1,0 +1,11 @@
+img{
+    width: 450px;
+    height: 300px;
+    border-radius: 60px / 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+

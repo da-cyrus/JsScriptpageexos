@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script src="../js/calculatrice.js"></script>
+    <link rel="stylesheet" href="../styles/style.lacalculatrice.css">
+
+    
+</head>
+<body>
+    <div class="afficher">
+
+    <p id="resultat">0</p>
+<!--Idée : ranger les chiffres par lignes : L1 (ligne 1 donc L1-1 : ligne 1-numéro de mon bouton)-->
+
+<!--La première rangée de ma calculette-->
+    <div class="L1">
+        <button id="L1-1" type="button" onclick="calculer('7')" class="btn btn-dark">7</button>
+        <button id="L1-2" type="button" onclick="calculer()" class="btn btn-dark">8</button>
+        <button id="L1-3" type="button" onclick="calculer()" class="btn btn-dark">9</button>
+        <button id ="L1-4" type="button"onclick="calculer()" class="btn btn-warning">/</button>
+
+    </div>
+<!--La deuxième rangée de ma calculette-->
+    <div class="L2">
+        <button id="L2-1" type="button" class="btn btn-dark">4</button>
+        <button id="L2-2" type="button" class="btn btn-dark">5</button>
+        <button id="L2-3" type="button" class="btn btn-dark">6</button>
+        <button id ="L2-4" type="button" class="btn btn-warning">*</button>
+
+    </div>
+
+<!--La troisième rangée de ma calculette-->
+    <div class="L3">
+        <button id="L3-1" type="button" class="btn btn-dark">1</button>
+        <button id="L3-2" type="button" class="btn btn-dark">2</button>
+        <button id="L3-3" type="button" class="btn btn-dark">3</button>
+        <button id ="L3-4" type="button" class="btn btn-warning">+</button>
+    </div>
+
+<!--La quatrième rangée de ma calculette-->
+    <div class="L4">
+        <button id="L4-1" type="button" class="btn btn-dark">0</button>
+        <button id="L4-2" type="button" class="btn btn-dark">.</button>
+        <button id="L4-2" type="button" class="btn btn-success">=</button> 
+        <button id ="L4-4" type="button" class="btn btn-warning">-</button>   
+    </div>
+
+
+    
+    </div>
+
+</body>
+</html>
