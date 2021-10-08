@@ -1,14 +1,19 @@
 //variable calcul : chaine caractère
-let calcul ="1,2,3"
+let calcul =""
 /*créer une méthode : chaque fois que clique 
 sur bouton le bouton insère dans le paramètre de la méthode*/
-function onClick(){
+function ajouterAuCalcul(caractere){
+    calcul+=caractere
+    document.querySelector("#resultat").textContent=calcul
+   
 
-    
+}
+
+//effectuer le calcul en splitant d'abord le résultat de l'affichage de calcul et effectuer les opération
+function calculer(){
+    let result = eval(calcul)
+    document.querySelector("#resultat").textContent=result
 }
 
 
 
-// à chaque ajout ajouter à calcul
-//quand puie sur egal, prend calcul et split
-//après faire calcul

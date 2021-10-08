@@ -20,40 +20,46 @@
 
 <!--La première rangée de ma calculette-->
     <div class="L1">
-        <button id="L1-1" type="button" onclick="calculer('7')" class="btn btn-dark">7</button>
-        <button id="L1-2" type="button" onclick="calculer()" class="btn btn-dark">8</button>
-        <button id="L1-3" type="button" onclick="calculer()" class="btn btn-dark">9</button>
-        <button id ="L1-4" type="button"onclick="calculer()" class="btn btn-warning">/</button>
+        <button id="L1-1" type="button" onclick="ajouterAuCalcul(7)" name="bouton" class="btn btn-dark">7</button>
+        <button id="L1-2" type="button" onclick="ajouterAuCalcul(8)" name="bouton" class="btn btn-dark">8</button>
+        <button id="L1-3" type="button" onclick="ajouterAuCalcul(9)" name="bouton" class="btn btn-dark">9</button>
+        <button id ="L1-4" type="button"onclick="ajouterAuCalcul('/')" name="bouton"class="btn btn-warning">/</button>
 
     </div>
 <!--La deuxième rangée de ma calculette-->
     <div class="L2">
-        <button id="L2-1" type="button" class="btn btn-dark">4</button>
-        <button id="L2-2" type="button" class="btn btn-dark">5</button>
-        <button id="L2-3" type="button" class="btn btn-dark">6</button>
-        <button id ="L2-4" type="button" class="btn btn-warning">*</button>
+        <button id="L2-1" type="button" onclick="ajouterAuCalcul(4)" name="bouton" class="btn btn-dark">4</button>
+        <button id="L2-2" type="button" onclick="ajouterAuCalcul(5)" name="bouton" class="btn btn-dark">5</button>
+        <button id="L2-3" type="button" onclick="ajouterAuCalcul(6)" name="bouton" class="btn btn-dark">6</button>
+        <button id ="L2-4" type="button" onclick="ajouterAuCalcul('*')" name="bouton" class="btn btn-warning">*</button>
 
     </div>
 
 <!--La troisième rangée de ma calculette-->
     <div class="L3">
-        <button id="L3-1" type="button" class="btn btn-dark">1</button>
-        <button id="L3-2" type="button" class="btn btn-dark">2</button>
-        <button id="L3-3" type="button" class="btn btn-dark">3</button>
-        <button id ="L3-4" type="button" class="btn btn-warning">+</button>
+        <button id="L3-1" type="button" onclick="ajouterAuCalcul(1)" name="bouton" class="btn btn-dark">1</button>
+        <button id="L3-2" type="button" onclick="ajouterAuCalcul(2)" name="bouton" class="btn btn-dark">2</button>
+        <button id="L3-3" type="button" onclick="ajouterAuCalcul(3)" name="bouton" class="btn btn-dark">3</button>
+        <button id ="L3-4" type="button" onclick="ajouterAuCalcul('+')" name="bouton" class="btn btn-warning">+</button>
     </div>
 
 <!--La quatrième rangée de ma calculette-->
     <div class="L4">
-        <button id="L4-1" type="button" class="btn btn-dark">0</button>
-        <button id="L4-2" type="button" class="btn btn-dark">.</button>
-        <button id="L4-2" type="button" class="btn btn-success">=</button> 
-        <button id ="L4-4" type="button" class="btn btn-warning">-</button>   
+        <button id="L4-1" type="button" onclick="ajouterAuCalcul(0)" name="bouton" class="btn btn-dark">0</button>
+        <button id="L4-2" type="button" onclick="ajouterAuCalcul('.')" name="bouton" class="btn btn-dark">.</button>
+        <button id="L4-3" type="button" onclick="calculer()" name="bouton" class="btn btn-success">=</button> 
+        <button id ="L4-4" type="button" onclick="ajouterAuCalcul('-')" name="bouton" class="btn btn-warning">-</button>   
     </div>
 
 
     
     </div>
+
+    <style>
+        body {
+        background-color:bisque;
+        }
+      </style>
 
 </body>
 </html>
